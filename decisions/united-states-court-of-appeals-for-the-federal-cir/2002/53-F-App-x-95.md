@@ -1,0 +1,39 @@
+---
+court: "United States Court of Appeals for the Federal Circuit"
+docket: "02-3235"
+decided: "2002-12-09"
+citations: ["53 F. App'x 95"]
+parties: ["Andrew J. ROSATI, Petitioner, v. MERIT SYSTEMS PROTECTION BOARD, Respondent."]
+source_url: "https://static.case.law/f-appx/53/cases/0095-01.json"
+source: "Caselaw Access Project (Harvard Law School Library), CC0"
+cap_id: 266090
+cites_cases: ["28 U.S.C. § 1295", "43 M.S.P.R. 423", "5 C.F.R. § 1201.114", "5 U.S.C. § 7703", "695 F.2d 1389", "88 M.S.P.R. 403", "91 M.S.P.R. 122", "966 F.2d 650"]
+---
+
+# Rosati v. Merit Systems Protection Board
+
+## Head matter
+
+Andrew J. ROSATI, Petitioner, v. MERIT SYSTEMS PROTECTION BOARD, Respondent.
+No. 02-3235.
+United States Court of Appeals, Federal Circuit.
+Dec. 9, 2002.
+Before LOURIE, SCHALL, and BRYSON, Circuit Judges.
+
+## Majority (PER CURIAM.)
+
+DECISION
+PER CURIAM.
+Andrew J. Rosati appeals from the decision of the Merit Systems Protection Board dismissing his petition for review as untimely filed. Rosati v. United States Postal Serv., 91 M.S.P.R. 122 (M.S.P.B. 2002) ("Rosati II”). We affirm.
+DISCUSSION
+Mr. Rosati was employed by the United States Postal Service as a Full-Time Carrier until his removal on February 16, 2000. Rosati v. United States Postal Serv., No. AT-0752-01-0608-I-1, slip op. at 1 (M.S.P.B. July 2, 2001) (“Rosati /”). Rosati appealed his removal to the Board on May 27, 2001, alleging a violation of due process and discrimination on the basis of his being “male,” “under 40,” “Italian,” and “[f]ired by [a] female.” He stated on his Appeal Form that he had also filed formal discrimination complaints at the Equal Employment Opportunity Commission (“EEOC”) in January, February, and May of 2000. Because those filings predated Rosati’s appeal to the Board by more than 120 calendar days and no final agency decision had yet been issued by the EEOC, his appeal was deemed timely filed. Id.
+The record reflects that a settlement was reached between the parties on June 29, 2001. Id. at 2. The Administrative Judge before whom the appeal was pending reviewed the settlement, determined that its terms were lawful and freely entered into by the parties, and then dismissed the appeal as settled in an Initial Decision dated July 2, 2001. Id. The Initial Decision included instructions to the petitioner for review by the Board and also indicated that the decision would become final on August 6, 2001, unless a petition for review was filed by that date or the Board reopened the case on its own motion. Id. at 3. Rosati filed a petition for review on October 2, 2001, alleging that the case was settled without his consent by his union president, David Lambdin.
+In a letter dated October 15, 2001, the Board notified Rosati that his petition did not meet the Board’s requirements, for two reasons: first, the petition was postmarked nearly two months after the August 6 deadline, and secondly, the petition was not served on the Postal Service. The letter stated that the second defect would be overlooked, but that Rosati would need to file a motion for waiver of the time limit and either a notarized affidavit or a statement, signed under penalty of perjury, demonstrating good cause for the late filing. The letter further stated that the Board could issue an order dismissing Rosati’s petition if he did not file such a motion and affidavit or statement within fifteen days from the date of the letter. Not having received any motion or other statement of good cause from Rosati; the Board resent its October 15 letter on January 10, 2002, and again granted him fifteen days to make the required filings.
+On January 29, 2002, after the second fifteen-day period for response had expired, Rosati finally wrote a letter to the Board, stating that his petition was late because he had wanted either Mr. Lamb-din or his union representative to advise him, but was unable to reach either of them for “periods of time,” and when he left messages for one, he was referred to the other. The letter was not in the form of a notarized affidavit or a statement sworn under oath, as the Board’s October and January letters had said was required.
+In an opinion dated March 12, 2002, the Board dismissed Rosati’s petition for review as untimely. Rosati II, slip op. at 1. Rosati timely appealed to this court. We have jurisdiction pursuant to 28 U.S.C. § 1295(a)(9) (2000).
+Under 5 U.S.C. § 7703(c), Congress limited the scope of our appellate review in cases such as this “to whether the board’s decision not to waive the regulatory time limit was arbitrary, an abuse of discretion, or otherwise not in accordance with law.” Phillips v. United States Postal Serv., 695 F.2d 1389, 1390 (Fed.Cir.1982).
+Under the Board’s regulations, to be timely, “[a]ny petition for review must be filed within 35 days after the date of issuance of the initial decision or, if the petitioner shows that the initial decision was received more than 5 days after the date of issuance, within 30 days after the date [of receipt].” 5 C.F.R. § 1201.114(d) (2000). The Board has discretion to grant or deny the waiver of that time limit, because, as we have held in the past, “[t]he statutory provisions for appeals to the board give the board broad discretion in handling appeals and controlling its own docket by requiring that appeals be processed in accordance with regulations prescribed by the board.” Phillips, 695 F.2d at 1390-91. Moreover, “whether the regulatory time limit for an appeal should be waived based upon a showing of good cause is a matter committed to the Board’s discretion and this court will not substitute its own judgment for that of the Board.” Mendoza v. Merit Sys. Prot. Bd., 966 F.2d 650, 653 (Fed.Cir.1992).
+The Board found that: Rosati was notified of the time limit for filing a petition for review; Rosati’s petition for review was not filed until nearly two months beyond that time limit; Rosati was given opportunities to submit an explanation for his untimely filing; Rosati’s response to the notices to show cause for the untimely filing was itself untimely; Rosati’s response, when it was finally sent, was not submitted in the proper form; and Rosati failed to demonstrate due diligence or ordinary prudence that would excuse his late filing. Rosati II, slip op. at 3-4. Citing Duncan v. Department of the Navy, 43 M.S.P.R. 423, 425 (1990), the Board held that “[t]he unavailability of a union representative does not constitute good cause for untimely filing.” Rosati II, slip op. at 4. The Board observed that, while Rosati was apparently acting pro se, that status “cannot overcome the length of delay and absence of evidence showing due diligence.” Id. at 4 (citing Winfrey v. Nat’l Archives & Records Admin., 88 M.S.P.R. 403, ¶ 6 (2001)).
+In view of the Board’s evaluation of these considerations, we find nothing in the Board’s dismissal of Rosati’s petition for review that can be characterized as arbitrary, capricious, or otherwise not in accordance with the law. Rosati’s remaining arguments, including those regarding his military service, his willingness to submit to a polygraph test, and his union’s failure to provide documentation pertaining to other employees who were arrested, are all factual considerations that are, unfortunately for Rosati, beyond the scope of our appellate review.
+Accordingly, we affirm.
+In the "Appendix to Respondent's Brief” in this appeal, there is a document entitled "Motion to Accept Filing as Timely or to Ask the Board to Waive or Set Aside the Time Limit,” signed by Rosati on January 21, 2002, that includes a sworn statement that its “statements” are "true and correct.” It is unclear from the record if that form was ever sent to the Board. Regardless whether it was sent, however, it does not affect our decision.
