@@ -1,0 +1,44 @@
+---
+court: "United States Court of Appeals for the Federal Circuit"
+docket: "00-1529"
+decided: "2001-03-08"
+citations: ["6 F. App'x 850"]
+parties: ["Alexandros MALTEZOS, Plaintiff-Appellant, v. AT&T CORP., Defendant-Appellee."]
+source_url: "https://static.case.law/f-appx/6/cases/0850-01.json"
+source: "Caselaw Access Project (Harvard Law School Library), CC0"
+cap_id: 154947
+cites_cases: ["138 F.3d 1448", "151 F.3d 1376", "175 F.3d 985", "1999 WL 587809", "23 USPQ2d 1426", "339 U.S. 605", "35 U.S.C. § 154", "4 USPQ2d 1737", "41 USPQ2d 1865", "46 USPQ2d 1169", "47 USPQ2d 1725", "50 USPQ2d 1607", "51 USPQ2d 1863", "520 U.S. 17", "833 F.2d 931", "85 USPQ 328", "94 L.Ed. 1097", "970 F.2d 816", "U.S. Patent No. 5,014,301"]
+cites_law: ["united-states/federal/usc/title-35/1.md", "united-states/federal/usc/title-35/154.md"]
+---
+
+# Maltezos v. AT&T Corp.
+
+## Head matter
+
+Alexandros MALTEZOS, Plaintiff-Appellant, v. AT&T CORP., Defendant-Appellee.
+No. 00-1529.
+United States Court of Appeals, Federal Circuit.
+DECIDED: March 8, 2001.
+
+## Majority (PER CURIAM.)
+
+DECISION
+PER CURIAM.
+Alexandros Maltezos is the owner of U.S. Patent No. 5,014,301 (the ’301 patent), which is directed to a public telephone that provides multi-lingual instructions to the user. Mr. Maltezos brought suit against AT&T Corp. in the United States District Court for the Southern District of New York, charging that AT&T had infringed the ’301 patent. The district court granted AT&T’s motion for summary judgment. Maltezos v. AT&T Corp., 51 USPQ2d 1863, 1999 WL 587809 (S.D.N.Y.1999). Because the district court properly construed the patent claim to require a limitation undisputedly absent from the accused device, we affirm.
+BACKGROUND
+The ’301 patent was issued in 1991. It has a single claim, which provides as follows:
+1. A payphone which includes a keypad or dial and a dial and a digital voice device for providing a user of said payphone voice instructions as to the operation of said payphone; the improvement comprising:
+a directory listing next to said keypad or dial including a list of languages with a corresponding coded numeral found on said keypad or dial; and
+said digital voice device further comprising multilingual voice instructions selectively controlled by the actuation of said keypad or dial such that the numeral actuated on said keypad provides instructions in the language which corresponds in said directory listing.
+In 1998, Mr. Maltezos sued AT&T, charging that AT&T’s Public Phone 2000 infringed the ’301 patent. AT&T moved for summary judgment, arguing that the Public Phone 2000 did not infringe because it lacked a “digital voice device for providing the user of said payphone voice instructions for operating said payphone.” The district court granted the motion for summary judgment. The court first ruled that the ’301 patent clearly requires the claimed payphone “to have a digital voice device to provide audible instruction in a chosen language.” The court then noted that the Public Phone 2000 contains no digital voice device, but instead is capable of presenting readable instructions in languages other than English. The readable instructions, the court held, did not infringe the claim limitation to a “digital voice device,” either literally or under the doctrine of equivalents.
+Mr. Maltezos took an appeal to the United States Court of Appeals for the Second Circuit, which transferred the case to this court.
+DISCUSSION
+The first step of an infringement analysis is for the court to determine the scope and meaning of the patent claims asserted. Cybor Corp. v. FAS Techs., Inc., 138 F.3d 1448, 1454, 46 USPQ2d 1169, 1172 (Fed. Cir.1998) (en banc). Claim construction begins with the claim language itself. Johnson Worldwide Assocs., Inc. v. Zebco Corp., 175 F.3d 985, 989, 50 USPQ2d 1607, 1610 (Fed.Cir.1999). The district court construed the single claim of the ’301 patent to require the claimed payphone to have “a digital voice device to provide audible instruction in a chosen language.” As a general rule, the words in a claim are to be given their “ordinary and accustomed meaning.” Johnson Worldwide, 175 F.3d at 989, 50 USPQ2d at 1610. We agree with the district court that the ordinary meaning of the claimed “digital voice device” requires that the device provide audible output.
+That construction of the claim is entirely consistent with the written description of the patent. For example, the background section notes that “[tjoday payphones are using spoken words to instruct the caller how to make and complete a call.” ’301 patent, col. 1, II. 16-17. Similarly, the detañed description section discusses “enabl[ing] the voice device within the telephone to provide instructional aid,” col. 2, II. 11-12, and discusses the “voice” to be provided by the “voice chip,” col. 2, II. 13-19. We therefore agree with the district court’s construction of the claim.
+The second step of an infringement analysis is to compare the properly construed claim to the allegedly infringing device. Cybor Corp., 138 F.3d at 1454, 46 USPQ2d at 1172. To establish literal infringement, all limitations specified in a claim must be found in the accused device exactly. See, e.g., Enercon GmbH v. Int’l Trade Comm’n, 151 F.3d 1376, 1384, 47 USPQ2d 1725, 1731 (Fed.Cir.1998); Read Corp. v. Portec, Inc., 970 F.2d 816, 821, 23 USPQ2d 1426, 1432 (Fed.Cir.1992). There is no literal infringement if even one limitation is absent from the accused device.
+The district court noted that it was undisputed that AT&T’s Public Phone 2000 does not contain a digital voice device and does not provide audible instruction. Mr. Maltezos points to no evidence to the contrary that was offered to the district court, and in fact Mr. Maltezos himself testified that the accused device has no voice capability but provides instructions only in a graphic display. Accordingly, the Public Phone 2000 does not literally infringe the ’301 patent as a matter of law.
+In his brief to this court, Mr. Maltezos argues that the infringement he alleges does not involve a voice chip but rather the way in which a user selects a language to be displayed graphically on the Public Phone 2000, specifically by pressing the “* ” key and a number key corresponding to the desired language. Even though the claim provides for keypad menu actuation, the Public Phone 2000 does not infringe because it does not contain a “digital voice device,” one of the limitations in the claim. As discussed, the accused device must contain all of the claimed limitations in order to infringe; the fact that the Public Phone 2000 may contain some, but less than all, of the limitations of the claim is not sufficient to give rise to infringement.
+Under the doctrine of equivalents, a product that does not literally infringe may nonetheless infringe if the product “contain[s] elements identical or equivalent to each claimed element of the patented invention.” Warner-Jenkinson Co. v. Hilton Davis Chem. Co., 520 U.S. 17, 40, 117 S.Ct. 1040, 137 L.Ed.2d 146, 41 USPQ2d 1865, 1875 (1997). The classical test for equivalence is whether the accused device “performs substantially the same function in substantially the same way to obtain the same result.” Graver Tank & Mfg. Co. v. Linde Air Prods. Co., 339 U.S. 605, 608, 70 S.Ct. 854, 94 L.Ed. 1097, 85 USPQ 328, 330 (1950); see also Warner-Jenkinson, 520 U.S. at 39, 117 S.Ct. 1040, 41 USPQ2d at 1875. As with literal infringement, there can be no infringement under the doctrine of equivalents if one limitation of a claim or its equivalent is not present in the accused device. Pennwalt Corp. v. Durand-Wayland, Inc., 833 F.2d 931, 935, 4 USPQ2d 1737, 1739-40 (Fed.Cir.1987) (en banc).
+We agree with the district court that the accused device does not have the capacity to perform the same function as the “digital voice device” recited in the patent claim, i.e., to provide audible voice instructions. Moreover, we conclude that no reasonable fact finder could find otherwise. Accordingly, we sustain the district court’s ruling that the Public Phone 2000 does not infringe under the doctrine of equivalents.
+Mr. Maltezos argued to the district court that AT&T’s product infringed because AT&T had no U.S. patent on the technology underlying the Public Phone 2000. Even if that allegation is true, it is no basis for a charge of infringement. A patent grants only the right to exclude others from making, using, offering for sale, selling, or importing the invention. 35 U.S.C. § 154(a)(1). A patent does not provide the right to practice an invention, and AT&T is therefore not required to have a patent in order to be entitled to make, use, or sell the Public Phone 2000.
+Finally, Mr. Maltezos has alleged fraud and corruption in the district court proceedings. We have examined his allegations and find no substance to them. We therefore affirm the judgment of the district court.
