@@ -1,0 +1,30 @@
+---
+court: "United States Court of Appeals for the Federal Circuit"
+docket: "99-7149"
+decided: "2001-03-01"
+citations: ["6 F. App'x 843"]
+parties: ["Daniel R. SMITH, Claimant-Appellant, v. Anthony J. PRINCIPI, Secretary of Veterans Affairs, Respondent-Appellee."]
+source_url: "https://static.case.law/f-appx/6/cases/0843-01.json"
+source: "Caselaw Access Project (Harvard Law School Library), CC0"
+cap_id: 155167
+---
+
+# Smith v. Principi
+
+## Head matter
+
+Daniel R. SMITH, Claimant-Appellant, v. Anthony J. PRINCIPI, Secretary of Veterans Affairs, Respondent-Appellee.
+No. 99-7149.
+United States Court of Appeals, Federal Circuit.
+DECIDED: March 1, 2001.
+
+## Majority
+
+ON MOTION
+ORDER
+Daniel R. Smith moves to voluntarily dismiss his appeal.
+Upon consideration thereof,
+IT IS ORDERED THAT:
+(1) The motion is granted.
+(2) The revised official caption is reflected above.
+(3) Each side shall bear its own costs.
