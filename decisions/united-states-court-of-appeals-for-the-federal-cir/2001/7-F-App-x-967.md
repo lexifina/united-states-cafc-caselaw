@@ -1,0 +1,39 @@
+---
+court: "United States Court of Appeals for the Federal Circuit"
+docket: "00-3261"
+decided: "2001-04-04"
+citations: ["7 F. App'x 967"]
+judges: ["Before MICHEL, SCHALL, and DYK, Circuit Judges."]
+parties: ["Ricky J. PETERSON, Petitioner, v. OFFICE OF PERSONNEL MANAGEMENT, Respondent."]
+source_url: "https://static.case.law/f-appx/7/cases/0967-01.json"
+source: "Caselaw Access Project (Harvard Law School Library), CC0"
+cap_id: 151828
+cites_cases: ["184 Ct.Cl. 530", "397 F.2d 295", "470 U.S. 768", "5 C.F.R. § 1201.115", "5 C.F.R. § 844.103", "5 U.S.C. § 7703", "5 U.S.C. § 8347", "5 U.S.C. § 8451", "58 F.3d 620", "71 M.S.P.R. 366", "996 F.2d 290"]
+---
+
+# Peterson v. Office of Personnel Management
+
+## Head matter
+
+Ricky J. PETERSON, Petitioner, v. OFFICE OF PERSONNEL MANAGEMENT, Respondent.
+No. 00-3261.
+United States Court of Appeals, Federal Circuit.
+April 4, 2001.
+Before MICHEL, SCHALL, and DYK, Circuit Judges.
+
+## Majority (PER CURIAM.)
+
+DECISION
+PER CURIAM.
+Ricky J. Peterson petitions for review of the final decision of the Merit Systems Protection Board (“Board”) that affirmed the reconsideration decision of the Office of Personnel Management (“OPM”) denying his application for disability retirement benefits. We affirm.
+DISCUSSION
+I.
+For almost thirteen years, Mr. Peterson was employed by the Department of the Navy as a computer specialist in China Lake, California. In May of 1997, he resigned from his position and applied for disability retirement benefits. In order to be entitled to such benefits, an individual must, while employed in a position covered by the Federal Employees’ Retirement System (“FERS”), have become disabled because of a disease or injury that is expected to continue for at least one year, resulting in a deficiency in performance, conduct, or attendance, or if there is no such deficiency, the disabling medical condition must be incompatible with either useful and efficient service or retention in the position. 5 U.S.C. § 8451(a)(1)(B); 5 C.F.R. § 844.103(a). The sole issue in this case is whether the Board erred in affirming OPM’s determination that Mr. Peterson failed to meet the disability requirement of the statute and implementing regulation.
+In his disability application, Mr. Peterson, who is blind, stated that he became disabled from performing his job on account of job stress. Mr. Peterson asserted that the stress had caused hypertension, chest pain, shortness of breath, alcohol use and peptic disease. According to Mr. Peterson, his job stress arose when he was unable to meet the changing visual requirements of his job due to his blindness after the facility at which he worked converted from a DOS-based computer system to Microsoft Windows.
+After OPM issued its reconsideration decision denying his application, Mr. Peterson appealed to the Board. Following a hearing, the administrative judge (“AJ”) to whom the case was assigned affirmed OPM’s decision. The AJ determined that Mr. Peterson had failed to establish that he became disabled while employed and that he therefore failed to meet the criteria for disability retirement set forth in 5 U.S.C. § 8451 and 5 C.F.R. § 844.103. The initial decision of the AJ became the final decision of the Board when the Board denied Mr. Peterson’s petition for review for failure to meet the criteria for review set forth in 5 C.F.R. § 1201.115. This appeal followed.
+II.
+The scope of our review in an appeal from the Board is limited. In general, we must affirm the Board’s decision unless we find it to be arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law; obtained without procedures required by law, rule, or regulation having been followed; or unsupported by substantial evidence. 5 U.S.C. § 7703(c). However, we are barred completely from reviewing factual determinations by OPM with regard to the disability of an individual under FERS. 5 U.S.C. § 8347(c); Lindahl v. OPM, 470 U.S. 768, 791, 105 S.Ct. 1620, 84 L.Ed.2d 674. (1985).
+On appeal, Mr. Peterson makes two arguments. First, he contends that the decision of the Board is not supported by substantial evidence. In that regard, Mr. Peterson urges that that AJ erred “in discounting the probative weight” of reports prepared by Dean Scofield and Steven Young, his treating physicians. Mr. Peterson asserts that, before the Board, OPM failed to offer any evidence in response to his evidence in the form of the reports of Dr. Scofield and Dr. Young. These are precisely the kinds of arguments that we are not empowered to consider because they go squarely to the “factual underpinnings” of the disability determination in Mr. Peterson’s case. Lindahl, 470 U.S. at 791. Mr. Peterson’s challenge to the factual underpinnings of the disability determination is beyond our jurisdiction.
+Mr. Peterson’s second argument on appeal is that the Board erred in not requiring OPM to rebut his “prima facie case” of disability. We do have jurisdiction to consider this argument. The reason is that, “while the factual underpinnings of § 8347 disability determinations may not be judicially reviewed, such review is available to determine whether ‘there has been a substantial departure from important procedural rights, a misconstruction of the governing legislation, or some like error going to the heart of the administrative determination.’ ” Lindahl, 470 U.S. at 791 (quoting Scroggins v. United States, 184 Ct.Cl. 530, 397 F.2d 295, 297 (Ct.Cl.1968)); Anthony v. OPM, 58 F.3d 620, 625 (Fed.Cir. 1995). Because the proper allocation of the burden of proof is an important procedural right that may have substantive consequences, it is reviewable under this standard. Bruner v. OPM, 996 F.2d 290, 292 (Fed.Cir.1993) (stating that because the proper allocation of the burden of proof is an important procedural right that may have substantive consequences, it is a matter that is within the court’s scope of review.).
+Mr. Peterson’s contention is, however, without merit. He argues that because he established a prima facie case of disability, the burden shifted to OPM to rebut his evidence. According to Mr. Peterson, because OPM did not present evidence rebutting his claim of disability, the Board erred in affirming the denial of his application for a disability retirement annuity. The burden of proving entitlement to disability retirement is upon the person who asserts the claim of disability. Bruner, 996 F.2d at 292. Once the claimant makes a prima facie case showing disability, the burden of production shifts to the agency to show that the claimant retains the capacity to perform the work activity. Id.; Klein v. OPM, 71 M.S.P.R. 366, 370 (1996). Contrary to Mr. Peterson’s assertion, he did not establish a prima facie case of disability, and therefore the Board properly did not shift the burden of production to OPM. In Bruner and Klein, the claimants established prima facie cases of entitlement simply because they were removed from their positions expressly because of the disabilities for which they were seeking benefits. Where a claimant was removed for disability, we apply a presumption whereby the burden shifts to the agency to demonstrate why the applicant was not entitled to disability retirement. Bruner, 996 F.2d at 293-94. In this case, the Navy did not terminate Mr. Peterson’s employment based on a finding that he was disabled. Rather, Mr. Peterson resigned from his position. As the Board found, Mr. Peterson’s supervisor had taken steps to accommodate Mr. Peterson’s difficulty in learning the Windows environment. Because the Board determined that Mr. Peterson had not made a prima facie case showing disability, the burden never shifted to OPM to present evidence to the contrary. Accordingly, Mr. Peterson’s argument is without merit. The Board’s decision affirming OPM’s denial of a disability retirement annuity is affirmed.
+Each party shall bear their own costs.
