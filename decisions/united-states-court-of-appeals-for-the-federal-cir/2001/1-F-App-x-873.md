@@ -1,0 +1,42 @@
+---
+court: "United States Court of Appeals for the Federal Circuit"
+docket: "00-3285"
+decided: "2001-01-03"
+citations: ["1 F. App'x 873"]
+parties: ["Todd E. MELDRUM, Petitioner, v. UNITED STATES POSTAL SERVICE, Respondent."]
+source_url: "https://static.case.law/f-appx/1/cases/0873-01.json"
+source: "Caselaw Access Project (Harvard Law School Library), CC0"
+cap_id: 137590
+cites_cases: ["305 U.S. 197", "38 U.S.C. § 4301", "5 C.F.R. § 1201.41", "5 C.F.R. § 1201.92", "5 U.S.C. § 7703", "727 F.2d 1535", "75 M.S.P.R. 401", "810 F.2d 1133", "900 F.2d 233", "918 F.2d 944"]
+---
+
+# Meldrum v. United States Postal Service
+
+## Head matter
+
+Todd E. MELDRUM, Petitioner, v. UNITED STATES POSTAL SERVICE, Respondent.
+No. 00-3285.
+United States Court of Appeals, Federal Circuit.
+Jan. 3, 2001.
+Before PAULINE NEWMAN and LINN, Circuit Judges, ARCHER, Senior Circuit Judge.
+
+## Majority (Pauline NEWMAN, Circuit Judge.)
+
+Pauline NEWMAN, Circuit Judge.
+Todd E. Meldrum appeals the decision of the Merit Systems Protection Board, Docket No. CH0752980380-I-4, affirming the Postal Service’s decision to remove him from employment. We affirm the Board’s decision.
+BACKGROUND
+Mr. Meldrum, a Postal Service supervisory employee with nearly six years of service, was removed from service on February 14, 1998 for “excessive leave.” Mr. Meldrum had been absent from his position from August 3, 1996. From August 3, 1996 through August 30, 1996 this absence was recorded as sick leave. From August 31, 1996 through November 22, 1996 the absence was recorded as leave under the Family Medical Leave Act (“FMLA”). From November 23, 1996 until May 14, 1997 Mr. Meldrum was recorded as absent without leave; however, by written agreement between Mr. Meldrum’s representative and his supervisor, that absence was changed to leave without pay status on May 14, 1997. Mr. Meldrum was also recorded as on leave without pay status from May 15, 1997 until his removal on February 14,1998.
+On appeal to the MSPB, the Board found that Mr. Meldrum had been in leave without pay status since November 23, 1996, and that his removal for excessive leave was in accordance with Postal Service regulations. The Board also found that the agency had notified Mr. Meldrum of his option to resign or apply for disability retirement and that he took neither step. The Board found that the agency had warned Mr. Meldrum that he might face removal if he did not report for duty. Mr. Meldrum states that these warnings required him either to return to work or to provide acceptable documentation supporting his absence. It is not disputed that Mr. Meldrum’s absence was due to a documented medical condition that precluded his return to work.
+The Board sustained the charge of excessive absence, and found that removal was a reasonable action and in compliance with the applicable regulations. Mr. Meld-rum appeals, stating that he was not on leave without pay from November 23, 1996 until May 14, 1997, that this period should not have been counted in the agency’s calculation of “excessive leave,” and therefore that his removal did not comply with Postal Service regulations.
+DISCUSSION
+Pursuant to 5 U.S.C. § 7703(c), Board actions, findings, or conclusions must be sustained unless they are: (1) arbitrary or capricious, an abuse of discretion, or otherwise not in accordance with law; (2) obtained without procedure required by law, rule, or regulation having been followed; or (3) unsupported by substantial evidence. See Hayes v. Dep’t of the Navy, 727 F.2d 1535, 1537 (Fed.Cir. 1984). The Board’s decision is sustained if it is supported by “such relevant evidence as a reasonable mind might accept as adequate to support a conclusion.” Bradley v. Veterans Admin., 900 F.2d 233, 234 (Fed. Cir.1990) (quoting Consolidated Edison Co. v. Nat’l Labor Relations Bd., 305 U.S. 197, 229, 59 S.Ct. 206, 83 L.Ed. 126 (1938)).
+Section 514.4(d)(4) of the Postal Service’s Employee and Labor Relations Manual provides in part that an employee may be separated from the Service “if required to be absent for more than 1 year unless there is cause to expect recovery and return within a reasonable time after the end of 1 year in LWOP status.” Mr. Meldrum states that he was not in leave without pay status for the requisite one year period, because this status did not begin until May 14, 1997. He disputes the Service’s reliance on the period from December 23,1996 to May 14,1997, originally recorded as AWOL status and then at his request changed to leave without pay status. We conclude that the agency correctly included this period, thereby meeting the regulatory requirement of one year’s absence.
+The MSPB has held that a removal action may be taken by an agency based on excessive leave without pay when (1) the record shows that the employee was absent for compelling reasons beyond his control, (2) the absence continued beyond a reasonable time and the employee was warned that an adverse action might be initiated unless the employee became available for duty on a regular basis, and (3) the agency shows that the position must be filled by an employee available for duty on a regular basis. Holderness v. Defense Commissary Agency, 75 M.S.P.R. 401, 404 (1998). These criteria are reasonable, and the Postal Service regulations are a reasonable implementation of these principles.
+Mr. Meldrum states that the Postal Service and the Board failed to make any findings about whether he might recover and return to work within a reasonable time. The agency states that there was no evidence to suggest that Mr. Meldrum could or would return to work. Mr. Meld-rum has directed us to no evidence to support the position that he should reasonably have been expected to return to work.
+Mr. Meldrum states that since the Postal Service granted his leave requests, it could not subsequently remove him for excessive absence. However, an agency is not required to keep a person on its employment rolls indefinitely when that person can not work due to poor health. In such situations, the proper procedure is to grant the requested leave, and to remove the employee only when the continued use of such leave becomes excessive. See Schultz v. Dep’t of the Navy, 810 F.2d 1133,1137 (Fed.Cir.1987). The agency followed this procedure here.
+Mr. Meldrum states that the Administrative Judge (“AJ”) improperly excluded certain witnesses from testifying at his hearing. The AJ ruled that the proffered testimony was irrelevant. Mr. Meld-rum states that the testimony would show ulterior motives of his supervisor for removing him. However, he does not explain how such motives relate to the length of his absence or the unlikelihood of his return to work. The AJ’s decision to exclude this evidence as irrelevant was not an abuse of discretion. See 5 C.F.R. § 1201.41(b)(8); Davis v. Office of Personnel Mgmt., 918 F.2d 944, 946 (Fed. Cir. 1990) (determination of whether testimony of witnesses should be presented at hearing is within the sound discretion of the administrative judge).
+Mr. Meldrum also states that the Postal Service failed to notify him that his period of leave without pay could have qualified as FMLA. He does not state that he was unaware of the FMLA, for he had invoked its benefit for a period of his absence. Nor does this argument suggest that the agency had no authority to terminate his service based on his prolonged absence.
+Mr. Meldrum states that he was never advised that his claim might fall within the scope of the Uniform Services Employment and Reemployment Rights Act. 38 U.S.C. § 4301(a)(3). However, he has not provided any substance for the position that he was discriminated against because of his service in the armed forces.
+Mr. Meldrum also states that the AJ failed to give proper consideration to his pro se status; however, we do not discern material prejudice on the facts or that his points were not fully and fairly considered. He further states that he was improperly denied interlocutory review by the full Board of his request for the AJ’s recusal. The AJ, denying such review, stated that an immediate ruling would not “materially advance the completion of the proceeding” or “cause undue harm to him or the public.” 5 C.F.R. § 1201.92. We discern no flaw in this procedure, and Mr. Meldrum provides us with no support for his request for recusal.
+We have considered all of the arguments, and conclude that the Board’s decision is in compliance with the applicable regulation and there was no material flaw in the proceedings.
+No costs.
