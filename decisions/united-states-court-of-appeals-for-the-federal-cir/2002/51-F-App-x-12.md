@@ -1,0 +1,36 @@
+---
+court: "United States Court of Appeals for the Federal Circuit"
+docket: "02-5080"
+decided: "2002-10-09"
+citations: ["51 F. App'x 12"]
+parties: ["Tony SILVA, Plaintiff-Appellant, v. UNITED STATES, Defendant-Appellee."]
+source_url: "https://static.case.law/f-appx/51/cases/0012-01.json"
+source: "Caselaw Access Project (Harvard Law School Library), CC0"
+cap_id: 1083181
+cites_cases: ["105 F.3d 621", "227 Ct.Cl. 458", "252 F.3d 1329", "28 U.S.C. § 1491", "46 Fed. Cl. 660", "650 F.2d 264", "93 F.3d 1537"]
+---
+
+# Silva v. United States
+
+## Head matter
+
+Tony SILVA, Plaintiff-Appellant, v. UNITED STATES, Defendant-Appellee.
+No. 02-5080.
+United States Court of Appeals, Federal Circuit.
+Oct. 9, 2002.
+Before MAYER, Chief Judge, RADER, and LINN, Circuit Judges.
+
+## Majority (PER CURIAM.)
+
+PER CURIAM.
+Tony Silva appeals the January 11, 2002 decision of the United States Court of Federal Claims dismissing his complaint for lack of jurisdiction. Because the Court of Federal Claims lacks jurisdiction over the asserted claims, this court affirms.
+BACKGROUND
+Mr. Silva, an expert on exotic birds, entered into a breeding loan agreement with James Mackman in August 1989. Under that agreement Mr. Mackman agreed to care for Mr. Silva’s birds in exchange for fifty-percent of all progeny produced. In June 1990, Mr. Mackman contracted with the U.S. Fish and Wildlife Service (FWS) to become an informant in a “covert project involving the importation and trade in exotic birds.” Specifically, Mr. Mackman agreed to maintain and further relationships with persons in the exotic bird trade, provide intelligence information to FWS, and document violations of state and federal wildlife laws.
+Under this agreement with FWS, Mr. Mackman cooperated in an FWS investigation of Mr. Silva. In January 1992, during the course of that investigation, the FWS seized 110 of Mr. Silva’s exotic birds under Mr. Mackman’s care. In an April 24, 1992 letter to Mr. Silva, the Assistant United States Attorney (AUSA) handling Mr. Silva’s prosecution informed Mr. Silva that some of the seized birds were diseased and sickly. The letter acknowledged that the test results for Newcastle Disease, a disease posing a serious threat to the domestic poultry industry, were not at a level that required reporting to the U.S. Department of Agriculture. It explained that the FWS would retain custody of seven birds until termination of the investigation, but that 108 of the birds could be returned to Mr. Silva. The letter strongly urged, however, that Mr. Silva abandon all 110 birds to the Government for donation to various scientific research projects. The Government alleges that Mr. Silva’s mother, Gila Daoud, signed an abandonment form on behalf of Mr. Silva, thereby releasing all 110 birds to the Government. The Government distributed the birds to various institutions. Mr. Silva contends, however, that he did not authorize his mother to abandon the birds to the Government. In January 1996, Mr. Silva pled guilty to illegal importation and conspiracy to illegally import protected wildlife.
+In October 1997, Mr. Silva’s attorney wrote the then-current AUSA claiming that Mr. Silva abandoned the birds to the Government based on indications that the birds were diseased. Only later, according to his complaint, did Mr. Silva learn that the majority of the birds were healthy. In April 2001, Mr. Silva filed a complaint against the United States in the Court of Federal Claims. Mr. Silva asserted a takings claim under the Fifth Amendment and a breach of contract claim. In support of his contract claim, Mr. Silva alleges that Mr. Mackman entered into the 1989 loan agreement on behalf of the Government, making the Government a party to the contract. The Court of Federal Claims dismissed Mr. Silva’s complaint for lack of jurisdiction, stating it had no jurisdiction where the alleged facts giving rise to the complaint derived from a criminal prosecution, and where Mr. Silva did not show that Mr. Mackman had authority to bind the Government in contract.
+DISCUSSION
+The jurisdiction of the United States Court of Federal Claims is a question of law that this court reviews without deference. James M. Ellett Constr. Co. v. United States, 93 F.3d 1537, 1541 (Fed.Cir. 1996). The Tucker Act, which defines the limited jurisdiction of the Court of Federal Claims, states:
+The United States Court of Federal Claims shall have jurisdiction to render judgment upon any claim against the United States founded either upon the Constitution, or any Act of Congress or any regulation of an executive department, or upon any express or implied contract with the United States, or for liquidated or unliquidated damages in cases not sounding in tort.
+28 U.S.C. § 1491(a)(1) (2000). The Court of Federal Claims thus lacks jurisdiction over tort actions against the United States. Id.; Brown v. United States, 105 F.3d 621, 623 (Fed.Cir.1997). Further, the court’s jurisdiction over contract claims does not extend to every situation in which the Government executes a contract. Sanders v. United States, 252 F.3d 1329, 1335-36 (Fed.Cir.2001); see also Kania v. United States, 227 Ct.Cl. 458, 650 F.2d 264, 268 (Ct.C1.1981).
+The Tucker Act primarily encompasses situations “where the sovereign steps off the throne,” and into the commercial marketplace to “engage[ ] in the purchase and sale of goods, lands, and services” or other such transactions that private parties engage in among themselves. Id. Where the Government executes contracts in its capacity as a sovereign, the Tucker Act still may provide jurisdiction if there is “specific authority ... to make an agreement obligating the United States to pay money, and spelling out how in such a case the liability of the United States is to be determined.” Id. The need for specific authority is particularly great where a contract involves the operation of the criminal justice system because the supervision of criminal cases properly belongs to the courts of general jurisdiction — not the Court of Federal Claims. Id.
+In this case Mr. Silva’s claims for breach of contract and takings both arise from a criminal investigation and prosecution of Mr. Silva. Because such criminal proceedings “lie[ ] at the heart of sovereign action, the Tucker Act provides the Court of Federal Claims no jurisdiction in these matters. Sadeghi v. United States, 46 Fed. Cl. 660, 662 (2000). Moreover, Mr. Silva’s breach of contract claim also fails because he showed neither specific authority to bind the Government in contract nor that the contract spelled out how to determine the Government’s liability. Likewise, Mr. Silva’s taking claim additionally fails because it is grounded upon the Government’s allegedly fraudulent statement that the birds were sick and diseased, which sounds in tort. Because the gravamen of Mr. Silva’s claim is not the alleged taking, but the fraudulent nature of the alleged taking, the Court of Federal Claims lacks jurisdiction over such a tort action against the Government. Hence, for these reasons and those articulated by the Court of Federal Claims, that court correctly determined that it lacked jurisdiction over Mr. Silva’s claims. The proper forum for the requested relief, if available, is the district courts.
