@@ -1,0 +1,41 @@
+---
+court: "United States Court of Appeals for the Federal Circuit"
+docket: "00-5125"
+decided: "2001-04-03"
+citations: ["7 F. App'x 957"]
+judges: ["Before CLEVENGER, SCHALL, and BRYSON, Circuit Judges."]
+parties: ["Gregory CHANDLER, Plaintiff-Appellant, v. UNITED STATES, Respondent."]
+source_url: "https://static.case.law/f-appx/7/cases/0957-01.json"
+source: "Caselaw Access Project (Harvard Law School Library), CC0"
+cap_id: 151780
+cites_cases: ["10 U.S.C. § 1552", "159 F.3d 573", "161 F.3d 1372", "28 U.S.C. § 1491", "28 U.S.C. § 2501", "424 U.S. 392", "47 Fed.Cl. 106", "846 F.2d 725", "852 F.2d 556", "933 F.2d 991", "990 F.2d 617"]
+---
+
+# Chandler v. United States
+
+## Head matter
+
+Gregory CHANDLER, Plaintiff-Appellant, v. UNITED STATES, Respondent.
+No. 00-5125.
+United States Court of Appeals, Federal Circuit.
+April 3, 2001.
+Before CLEVENGER, SCHALL, and BRYSON, Circuit Judges.
+
+## Majority (CLEVENGER, Circuit Judge.)
+
+CLEVENGER, Circuit Judge.
+Gregory Chandler filed a complaint in the United States District Court for the Northern District of California on July 7, 1997, alleging breach of contract, negligence and due process violations arising from alleged errors in his military records. The case was transferred to the Court of Federal Claims for lack of jurisdiction. Mr. Chandler appeals the decision of the Court of Federal Claims dismissing his complaint as barred by the six-year statute of limitations contained in 28 U.S.C. § 2501. Chandler v. United States, 47 Fed.Cl. 106 (2000). We affirm.
+I
+Mr. Chandler attended law school at the University of Texas, and upon graduation in May 1988, he applied to join the United States Army Judge Advocate General’s Corps (“JAGC”) as a commissioned officer. To be eligible for a commission as a JAGC officer, Army Regulations require the applicant to have been admitted to practice before a state or federal court. Documentation is required to prove the applicant’s current standing before the bar. Mr. Chandler submitted a letter dated May 27, 1988, which purported to be written by James Chute, Clerk, Supreme Judicial Court of the State of Maine, stating: “I hereby certify that GREGORY CHANDLER is admitted to practice before the Maine Supreme Judicial Court of the State of Maine.”
+In October 1989, due to poor performance reviews, the Staff Judge Advocate at Fort Dix requested a verification of Mr. Chandler’s legal credentials. An extensive Army Criminal Investigation Division (“CID”) inquiry followed. The final CID report stated that the James Chute letteb was forged by Mr. Chandler, and that Mr. Chandler had in fact never been admitted to the state bar of Maine.
+Because admission to a state bar is a non-waivable commissioning requirement, Mr. Chandler’s Army appointment automatically became void. In a letter dated March 7, 1990, Mr. Chandler was advised that his commission was void, and that because he was never validly appointed, there was no requirement to revoke the commission. The letter further stated: “[ajccordingly, you hold no military status.” Additionally, in March 1990, the Army stopped paying Mr. Chandler. Mr. Chandler admits having received notice in March 1990 that he would no longer be performing military duties due to questions about his admission to practice law. Mr. Chandler further acknowledges that he has not received any pay from the Army since March 1990. Nevertheless, Mr. Chandler contends that he is still a commissioned officer in the United States Army, and that his military status has been acknowledged by the Army via various documents. His complaint seeks correction of his military records to confirm that he remains a commissioned officer.
+The government moved to dismiss the complaint as barred by the statute of limitations in 28 U.S.C. § 2501, which states in part:
+Every claim of which the United States Court of Federal Claims has jurisdiction shall be barred unless the petition thereon is filed within six years after such claim first accrues.
+28 U.S.C. § 2501 (1994). The Court of Federal Claims granted the motion to dismiss, finding that Mr. Chandler’s cause of action accrued in March 1990, more than six years prior to his filing suit. A complaint barred by the statute of limitations is beyond the subject matter jurisdiction of the Court of Federal Claims.
+II
+The issue of whether a complaint was properly dismissed for lack of subject matter jurisdiction is a question of law which we review de novo. See Booth v. United States, 990 F.2d 617, 619 (Fed.Cir.1993). For purposes of a motion to dismiss, the factual allegations of the non-moving party are accepted as true. Merrick v. United States, 846 F.2d 725, 726 (Fed.Cir.1988). However, Mr. Chandler bears the burden of proving that the Court of Federal Claims possessed jurisdiction over his complaint. Rocovich v. United States, 933 F.2d 991, 993 (Fed.Cir.1991).
+Mr. Chandler argues that his request for correction of his military records pursuant to 10 U.S.C. § 1552 is subject only to the statute of limitations set forth in subsection (b) of that statute, which states:
+(b) No correction may be made under subsection (a)(1) unless the claimant or his heir or legal representative files a request for the correction within three years after he discovers the error or injustice. However, a board established under subsection (a)(1) may excuse a failure to file within three years after discovery if it finds it to be in the interest of justice.
+10 U.S.C. § 1552(b) (1994). However, Mr. Chandler misapprehends the nature of jurisdiction in the Court of Federal Claims. The United States, as a sovereign, may not be sued without its consent. United States v. Testan, 424 U.S. 392, 399, 96 S.Ct. 948, 47 L.Ed.2d 114 (1976). Thus, in order to maintain a claim against the government, an explicit waiver of sovereign immunity is required. Id. The Tucker Act, embodied in 28 U.S.C. § 1491, provides a waiver of sovereign immunity in the Court of Federal Claims for non-tort suits against the United States founded upon the Constitution, a statute or regulation, or an express or implied contract with the United States. 28 U.S.C. § 1491 (1994). However, claims under the Tucker Act requesting equitable relief (such as the correction of military records) must be collateral to claims for a money judgment. See James v. Caldera, 159 F.3d 573, 580 (Fed.Cir.1998). Mr. Chandler cannot bring only an equitable claim for records correction under the Tucker Act. In Mr. Chandler’s case, the monetary claim at issue is a claim for back pay for the years in which he allegedly was still a commissioned officer but was not paid by the United States Army.
+Section 1552 of title 10 of the United States Code, standing alone, does not provide a waiver of sovereign immunity. It is the Tucker Act that provides such a waiver, and allows suit to be brought under 10 U.S.C. § 1552. However, 28 U.S.C. § 2501 states that “[ejvery claim of which the United States Court of Federal Claims has jurisdiction shall be barred unless the petition thereon is filed within six years after such claim first accrues.” The statute of limitations contained in 28 U.S.C. § 2501 provides an express limitation on the Tucker Act’s waiver of sovereign immunity necessary for jurisdiction. See Alder Terrace, Inc. v. United States, 161 F.3d 1372, 1376-77 (Fed.Cir.1998). Therefore the six-year statute of limitations does apply to Mr. Chandler’s claim.
+As detailed in the Court of Federal Claims opinion, there is overwhelming evidence that Mr. Chandler knew or should have known in March 1990 that the Army considered him to be released from active duty and no longer entitled to his military pay. Chandler, 47 Fed.Cl. at 113-15. A claim against the United States first accrues “on the date when all the events have occurred which fix the liability of the Government and entitle the claimant to institute an action.” Kinsey v. United States, 852 F.2d 556, 557 (Fed.Cir.1988). Mr. Chandler’s claim accrued upon his release from duty and the cessation of his pay. Thus, the statute of limitations began to run in March 1990, and more than six years elapsed before Mr. Chandler filed his claim on July 7, 1997. Mr. Chandler’s claim is therefore barred by the statute of limitations contained in 28 U.S.C. § 2501, and was correctly dismissed.
