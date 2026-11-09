@@ -50,3 +50,6 @@ Dates in the commit history: git cannot hold dates before 1970, so a decision be
 Read the `In-force:` trailer for the day decided, not the commit date.
 
 Head matter differs by when a decision came in: this repo's first build, from the Caselaw Access Project, includes each decision's head matter (syllabus, headnotes, counsel) in its file; the decisions appended later from the CAP bulk data leave it out (the publisher's text, not the court's), except where CAP has no opinion text, where the file gives the head matter under `## CAP head matter`. A text search over head-matter words therefore finds them only in the first build's decisions.
+
+## Decisions moved to their own repos (2026-11-09)
+8 decisions were here by a routing mistake (CAP gives them a jurisdiction their court name contradicts, or a court name the router did not read). Each is now in its own repo, and its file here is removed; `decision-relations.tsv` gives each removed path as `moved-to <repo>/<path>`. 8 to united-states-federal-special-caselaw. Now 33,581 decisions.
