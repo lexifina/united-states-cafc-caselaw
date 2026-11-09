@@ -25,6 +25,9 @@ HERE = Path(__file__).resolve().parent
 _r = importlib.util.spec_from_file_location('us_reconcile', HERE.parent / 'nl-caselaw' / 'reconcile.py')
 RC = importlib.util.module_from_spec(_r)
 _r.loader.exec_module(RC)
+_u = importlib.util.spec_from_file_location('usc_cite', HERE / 'usc_cite.py')
+UC = importlib.util.module_from_spec(_u)
+_u.loader.exec_module(UC)
 
 LAW_CORPUS = 'united-states/federal/usc'
 EASTERN = timezone(timedelta(hours=-5))
@@ -43,10 +46,6 @@ GROUPS['cadc'] = ('the United States Court of Appeals for the District of Columb
                   r'^United States Court of Appeals(?: for the|,) District of Columbia(?: Circuit)?$'
                   r'|^Court of Appeals of (?:the )?District of Columbia$')
 GROUPS['cafc'] = ('the United States Court of Appeals for the Federal Circuit', r'^United States Court of Appeals for the Federal Circuit$')
-# "11 U.S.C. § 1182", "28 U.S.C. §§ 1331, 1332", "42 U.S.C.A. § 1983", "15 USC 78j(b)"
-USC = regex.compile(r'\b(\d{1,2})\s*U\.?\s?S\.?\s?C\.?(?:A\.?|S\.?)?\s*(?:§§?|[Ss]ec(?:tions?|s?\.)|[Ss]ections?)?\s*'
-                    r'((?:\d+[a-z]?(?:-\d+)?(?:\([a-zA-Z0-9]+\))*)(?:\s*(?:,|and|or|&)\s*\d+[a-z]?(?:-\d+)?(?:\([a-zA-Z0-9]+\))*){0,12})')
-SEC = re.compile(r'\d+[a-z]?(?:-\d+)?')
 
 
 def slug(s: str) -> str:
@@ -74,15 +73,40 @@ def usc_versions(law: Path, ref: str = 'main') -> dict:
     return res
 
 
-def usc_cites(text: str, have: set) -> list[tuple[str, str]]:
+def _record_from(ver: dict) -> str | None:
+    """The day the US Code record starts (its earliest version of any section)."""
+    key = id(ver)
+    if _RECORD_FROM.get('key') != key:
+        _RECORD_FROM.update(key=key, day=min((v[0][0] for v in ver.values() if v[0]), default=None))
+    return _RECORD_FROM['day']
+
+
+_RECORD_FROM: dict = {}
+
+
+def usc_cites(text: str, have: set, day: str | None = None, ver: dict | None = None) -> list[tuple[str, str]]:
+    """(law path, citation words) for every section of the US Code record a text cites (usc_cite.cites: a page stamp
+    "USCA4" is not a citation, "(a)(4)" is a subsection, "§§ 1-16" a range read at its two ends), leaving out a citation
+    under an older numbering than the record's (usc_cite.old_numbering: a decision before the title's recodification or
+    before the section was added, an edition before it, "former")."""
     out = []
-    for m in USC.finditer(text, timeout=2.0) if text else []:
-        title = m.group(1)
-        for s in SEC.findall(m.group(2)):
-            p = f'title-{int(title)}/{s}.md'
-            if p in have:
-                out.append((p, re.sub(r'\s+', ' ', m.group(0)).strip()[:200]))
+    start = _record_from(ver) if ver else None
+    for c in UC.cites(text, exists=lambda t, s: f'title-{t}/{s}.md' in have, long_forms=True):
+        p = f"title-{c['title']}/{c['section']}.md"
+        if p not in have:
+            continue
+        first = ver[p][0][0] if ver and p in ver and ver[p][0] else None
+        if UC.old_numbering(c, day, first, start):
+            continue
+        out.append((p, c['how'][:200]))
     return out
+
+
+def docket_refs(docket: str) -> list[str]:
+    """The docket a decision is indexed by: as given, less the leading punctuation CAP's OCR leaves (", 671", "- 475",
+    ". 78-1567"), and only when it holds a digit (not "** This disposition is not appropriate for publication")."""
+    d = re.sub(r'^[\s.,;:()\-–—*]+', '', docket or '').strip()
+    return [d] if re.search(r'\d', d) and len(d) <= 80 else []
 
 
 def body_of(r: dict) -> str:
@@ -97,6 +121,17 @@ def body_of(r: dict) -> str:
     return '\n'.join(parts)
 
 
+def text_length(r: dict) -> int:
+    return sum(len(o.get('text') or '') for o in r.get('opinions') or []) + len(r.get('head_matter') or '')
+
+
+def decision_type(r: dict) -> str:
+    """How a reader tells a U.S. Reports entry apart, by the length of its text: the reporter prints every memorandum
+    order (certiorari denied, dismissed, rehearing denied) as its own one-line entry, and CAP keeps each as a case."""
+    n = text_length(r)
+    return 'memorandum order' if n < 300 else 'per curiam' if n < 1000 else 'opinion'
+
+
 def render(r: dict, day: str, have: set, ver: dict, extra: tuple = ()):
     """(path, file bytes, author, email, message bytes, [(law path, overlay row)], [index refs], cites) for one decision."""
     court = r.get('court') or 'Court'
@@ -106,8 +141,9 @@ def render(r: dict, day: str, have: set, ver: dict, extra: tuple = ()):
     path = f"decisions/{slug(court).lower()[:50]}/{day[:4]}/{key}.md"
     docket = re.sub(r'^\s*(?:Nos?\.|Docket\s+No\.?)\s*', '', r.get('docket') or '').strip()
     text = body_of(r)
-    found = usc_cites(text, have)
-    fm = {'court': court, 'docket': docket or None, 'decided': r.get('decided'), 'citations': r.get('citations') or None,
+    found = usc_cites(text, have, day, ver)
+    fm = {'court': court, 'decision_type': decision_type(r) if court == 'Supreme Court of the United States' else None,
+          'docket': docket or None, 'decided': r.get('decided'), 'citations': r.get('citations') or None,
           'judges': r.get('judges') or None, 'parties': r.get('parties') or None, 'source_url': r.get('source_url'),
           'source': r.get('source') or 'Caselaw Access Project (Harvard Law School Library), CC0', 'cap_id': r.get('id')}
     lines = ['---'] + [f'{k}: {json.dumps(v, ensure_ascii=False)}' for k, v in fm.items() if v not in (None, '', [])]
@@ -145,8 +181,36 @@ def render(r: dict, day: str, have: set, ver: dict, extra: tuple = ()):
         row = {'decided': day, 'name': name, 'court': court, 'citation': cite or docket or str(r['id']),
                'url': r.get('source_url') or '', 'how': how, 'mentions': counts[p], 'decision': path}
         rows.append((p, RC.fix_row(row, p, ver)))
-    refs = sorted({*(r.get('citations') or []), *( [docket] if docket else []), f"cap-{r['id']}"})
+    refs = sorted({*(r.get('citations') or []), *docket_refs(docket), f"cap-{r['id']}"})
     return path, body, author, email, msg, rows, refs
+
+
+def dedupe(recs: list[dict]) -> list[dict]:
+    """One record per case: CAP sometimes carries the same case twice (the same day, docket and name, e.g. printed both in
+    an orders list and with its opinion; 209 in the U.S. Reports, 2,110 in the Federal Reporter series). Keep the record
+    with the most text and give it every citation and cited case of the others."""
+    groups: dict[tuple, list[dict]] = {}
+    out = []
+    for r in recs:
+        d = re.sub(r'^\s*(?:Nos?\.|Docket\s+No\.?)\s*', '', r.get('docket') or '').strip()
+        if not d:
+            out.append(r)
+            continue
+        groups.setdefault(((r.get('decided') or '')[:10], d, (r.get('name_abbreviation') or '').strip().lower()), []).append(r)
+    for g in groups.values():
+        if len(g) == 1:
+            out.append(g[0])
+            continue
+        g.sort(key=lambda r: (-sum(len(o.get('text') or '') for o in r.get('opinions') or []) - len(r.get('head_matter') or ''), str(r['id'])))
+        keep = dict(g[0])
+        cites = list(keep.get('citations') or [])
+        for o in g[1:]:
+            cites += [c for c in o.get('citations') or [] if c not in cites]
+            keep['cites_to'] = sorted(set((keep.get('cites_to') or []) + (o.get('cites_to') or [])))
+        keep['citations'] = cites
+        keep['merged_cap_ids'] = [o['id'] for o in g[1:]]
+        out.append(keep)
+    return out
 
 
 def main() -> None:
@@ -171,6 +235,7 @@ def main() -> None:
                         continue
                     seen_ids.add(r['id'])
                     recs.append(r)
+    recs = dedupe(recs)
     recs.sort(key=lambda r: ((r.get('decided') or '9999')[:10], r.get('official') or '', str(r['id'])))
     print(f'{a.group}: {len(recs)} decisions', file=sys.stderr, flush=True)
     if out.exists() and any(out.iterdir()):
@@ -225,6 +290,16 @@ def main() -> None:
         docs[f"decisions/undated/cap-{r['id']}.md"] = f"---\ncap_id: {r['id']}\nsource_url: {json.dumps(r.get('source_url'))}\n---\n\n# {r.get('name_abbreviation') or r['id']}\n\n{body_of(r)}\n"
     n_refs = sum(len(v) for v in overlay.values())
     gl = f'united-states/{a.group}/caselaw'
+    types_line = ''
+    if a.group == 'supreme-court':
+        kinds = {}
+        for r in recs:
+            if r not in undated:
+                kinds[decision_type(r)] = kinds.get(decision_type(r), 0) + 1
+        types_line = (f"\nThe U.S. Reports print every order as its own entry, and each is kept here: "
+                      f"{kinds.get('memorandum order', 0):,} memorandum orders (certiorari denied, dismissed, rehearing denied; under 300 "
+                      f"characters), {kinds.get('per curiam', 0):,} short per curiam decisions and orders (300 to 999 characters) and "
+                      f"{kinds.get('opinion', 0):,} opinions (1,000 characters or more). Each file's `decision_type` says which.\n")
     docs['corpus.json'] = json.dumps({
         'corpus': f'us/{a.group}/caselaw', 'path': gl, 'name': f'Case law: United States, {where}', 'label': f'United States case law ({where})',
         'language': 'en', 'kind': 'judgments', 'history': 'in-force',
@@ -242,7 +317,7 @@ Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git h
 
 Every published opinion of {where} in the Caselaw Access Project, as a git history: one file per decision, one commit
 per decision, dated the day it was decided. {mark:,} decisions from {first} to the end of the source.
-
+{types_line}
 ## Questions as git commands
 
 | Question | Command |
@@ -277,7 +352,7 @@ python tools/build.py {a.group} <cache>/<reporter>,... <empty folder> --today {a
 
 Input: static.case.law reporter volume zips (CC0). Gives {mark:,} decision commits and one documentation commit.
 """
-    for f in ('fetch_cap.py', 'build.py'):
+    for f in ('fetch_cap.py', 'build.py', 'usc_cite.py'):
         docs[f'tools/{f}'] = (HERE / f).read_text(encoding='utf-8')
     ts = int(datetime.fromisoformat(a.today + 'T12:00:00-05:00').timestamp())
     msg = f'Documentation: README, REPRODUCE, corpus.json, decision index and the judgment overlay ({n_refs} citations)\n'.encode()
